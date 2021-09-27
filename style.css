@@ -71,28 +71,3 @@ h3 {
 #reroll:active {
   transform: scale(0.98);
 }
-
-nav {
-  width: fit-content;
-  height: 50px;
-  overflow: hidden;
-  font-size: 30px;
-}
-
-nav i {
-  background: linear-gradient(45deg, red 0%, black 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: transform 0.3s ease-out;
-}
-
-nav a {
-  color: black;
-  text-decoration: none;
-  outline: none;
-}
-
-nav a:focus i {
-  content: "";
-  transform: translate(50px, -50px);
-}
